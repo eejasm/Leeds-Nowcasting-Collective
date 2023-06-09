@@ -50,15 +50,15 @@ plugins:
   - jekyll-sitemap
   - jemoji
   
-paginate: 15
-paginate_path: /page:num/
-
-remote_theme: jekyll/minima
-
-titles_from_headings:
-  enabled:     true
-  strip_title: true
-  collections: true
+#paginate: 15
+#paginate_path: /page:num/
+#
+#remote_theme: jekyll/minima
+#
+#titles_from_headings:
+#  enabled:     true
+#  strip_title: true
+#  collections: true
 
 #highlighter: rouge
 #markdown: kramdown
