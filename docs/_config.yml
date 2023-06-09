@@ -18,6 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: default
+
 title: LNC
 email: eejasm@leeds.ac.uk
 description: The Leeds Nowcasting Collective
@@ -53,14 +60,14 @@ titles_from_headings:
   strip_title: true
   collections: true
 
-highlighter: rouge
-markdown: kramdown
-kramdown:
-  math_engine: katex
-  input: GFM
-  auto_ids: true
-  hard_wrap: false
-  syntax_highlighter: rouge
+#highlighter: rouge
+#markdown: kramdown
+#kramdown:
+#  math_engine: katex
+#  input: GFM
+#  auto_ids: true
+#  hard_wrap: false
+#  syntax_highlighter: rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default.
