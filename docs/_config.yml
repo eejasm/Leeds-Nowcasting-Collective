@@ -19,29 +19,29 @@
 # in the templates via {{ site.myvariable }}.
 
 title: LNC
-email: your-email@example.com
+email: eejasm@leeds.ac.uk
 description: The Leeds Nowcasting Collective
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://leeds-nowcasting-collective.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/contact" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-# github_username:  
+github_username: eejasm  
 
-#future: true
+future: true
 
 # Build settings
-#theme: minima
-#plugins:
-#  - jekyll-feed
-#  - jekyll-gist
-#  - jekyll-octicons
-#  - jekyll-toc
-#  - jekyll-twitter-plugin
-#  - jekyll-relative-links
-#  - jekyll-seo-tag
-#  - jekyll-remote-theme
-#  - jekyll-paginate
-#  - jekyll-sitemap
-#  - jemoji
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-octicons
+  - jekyll-toc
+  - jekyll-twitter-plugin
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
 #  
 #paginate: 15
 #paginate_path: /page:num/
