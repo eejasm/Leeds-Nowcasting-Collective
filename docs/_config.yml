@@ -28,8 +28,8 @@ defaults:
 title: LNC
 email: eejasm@leeds.ac.uk
 description: The Leeds Nowcasting Collective
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /Leeds-Nowcasting-Collective.github.io
+url: http://eejasm.github.io
 # twitter_username: jekyllrb
 github_username: eejasm  
 
